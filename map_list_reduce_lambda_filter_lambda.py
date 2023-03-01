@@ -38,3 +38,17 @@ for i in ll:
         add1.append([i, sumof-i])
 print(add)
 print(add1)
+
+
+from collections import Counter
+d1 = {'key1': 50, 'key2': 100, 'key3':200}
+d2 = {'key1': 200, 'key2': 100, 'key4':300}
+new_dict = Counter(d1) + Counter(d2)
+print(new_dict)
+
+
+
+ll = [1,2]
+
+pp = [x+1 if x%2==0 else 'dev' for x in ll]
+print(pp)
