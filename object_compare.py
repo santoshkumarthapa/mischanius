@@ -20,6 +20,7 @@ if __name__ == "__main__":
     print(per1 is per2)
     print(per1.__hash__())
     print(per2.__hash__())
+    print(id(per1), id(per2))
     print(per1 is per2)
     D = {per1:1, per2:2}
     print(D)

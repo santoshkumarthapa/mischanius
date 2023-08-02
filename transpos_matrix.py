@@ -34,4 +34,5 @@ transpose = [[0, 0, 0], [0, 0, 0]]
 # iterating the rows and then columns of each row
 for i in range(len(matrix)):
     for j in range(len(matrix[0])):
+        print(i,j)
         transpose[j][i] = matrix[i][j]

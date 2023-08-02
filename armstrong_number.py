@@ -21,6 +21,7 @@ def is_armstrong(n):
     length = find_length(n)
     sum = 0
     i = 0
+    m=n
     temp = 0
     while n!=0:
         temp = n%10
@@ -29,8 +30,8 @@ def is_armstrong(n):
         for i in range(length):
             temp =temp*temp
             ll+=temp
-            print(ll)
+            #print(ll)
         sum+=ll
-    if sum==n:
+    if sum==m:
         print(f'{n} is armstrong number') 
 is_armstrong(153)

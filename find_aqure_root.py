@@ -4,11 +4,11 @@
 #         8   O/P 2
 
 
-number = 8
+number = 64
 temp =0
 sqrt = number//2
 
-# Below code only work for perfect squre root
+#Below code only work for perfect squre root
 # while sqrt!=temp:
 #     temp = sqrt
 #     sqrt =(number//temp+temp)//2

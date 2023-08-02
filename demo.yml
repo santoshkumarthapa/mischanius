@@ -1,0 +1,30 @@
+# this file teach you to create yaml file 
+
+
+# YAML file sytart with 3 ---
+---
+# this will be the root element of the YAML file 
+publicCloud:
+#point to be noted here is if the entity is list then it should be start with -
+#Every MAP/Dictionary's key ends with ":"
+  - cloud: AWS
+    -services: 
+      - EC2
+      - S3
+      - VPC
+      - RDS:
+        - MSSQL
+        - ORACLE
+        - DB2
+        - SQLServer 
+  - cloud: ASURE
+    -services:
+      - VM
+      - BLOB
+      - VNET
+      - RDS:
+        - MSSQL
+        - DB2
+        - MYSQL
+        - TDV
+  - cloud: GCP
